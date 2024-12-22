@@ -319,6 +319,93 @@ section {
 #experience {
   position: relative;
 }
+.skills-details-container {
+  width: 100%;
+  /* max-width: 100px;   */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sections-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  width: 100%;
+}
+
+.details-container {
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  margin-bottom: 10px;  /* Reduced from 20px */
+}
+
+.section-title h2 {
+  font-size: 1.8rem;
+  color: #2d2e32;
+  font-weight: 600;
+}
+
+.section-icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;  /* Try different values here, like 8px, 10px, 15px */
+}
+
+.sub-container {
+  display: flex;
+  align-items: flex-start;  /* Changed from 'right' to 'flex-start' */
+  gap: 2px;
+  padding: 2px;
+  transition: all 0.3s ease;
+}
+
+.sub-container:hover {
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+h3 {
+  min-width: 150px;
+  font-weight: 600;
+  color: #2d2e32;
+  margin: 0;
+}
+
+.skill-details {
+  color: #767676;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sections-wrapper {
+    grid-template-columns: 1fr;
+  }
+  
+  .sub-container {
+    flex-wrap: wrap;
+  }
+  
+  h3 {
+    min-width: auto;
+    margin-right: 10px;
+  }
+}
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -328,9 +415,13 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  
 }
 
 .article-container {
@@ -340,6 +431,14 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+
+.sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
 }
 
 article {
@@ -430,3 +529,4 @@ footer {
 footer p {
   text-align: center;
 }
+

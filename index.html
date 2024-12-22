@@ -142,10 +142,10 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#skills'"
       />
     </section>
-    <section id="experience">
+     <!-- <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -256,18 +256,20 @@
                   <h3>Express JS</h3>
                   <p>Intermediate</p>
                 </div>
+                
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+              <div class="skills-list">
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Languages</h3>
+                <p class="skill-details">Python, Java, C++, SQL, JavaScript</p>
+              </div>
+
+                <div class="sub-container">
+                  <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                  <h3>Frameworks</h3>
+                  <p class="skill-details">Flask, Django, Node.js, Express.js</p>
                 </div>
-              </article>
             </div>
           </div>
         </div>
@@ -278,11 +280,113 @@
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
+    </section>  -->
+            
+    <!-- <div class="sub-container">
+      <img
+        src="./assets/checkmark.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <h3>wh22215@umbc.edu</a></h3>
+      <span class="skill-details">Python, Java, C++, SQL, JavaScript</span>
+    </div> -->
+
+    
+    <section id="skills">
+
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="sections-wrapper">
+         
+          <div class="details-container">
+            <div class="sub-container section-title">
+               <h2>Software Development</h2>
+            </div>
+            
+            <div class="skills-list">
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Languages</h3>
+                <p class="skill-details">Java, Python, C, SQL (Postgres, SQLite), HTML, CSS, JavaScript</p>
+              </div>
+
+                <div class="sub-container">
+                  <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                  <h3>Frameworks</h3>
+                  <p class="skill-details">Django, Flask, React.js, Spring Boot, ASP.NET Core</p>
+                </div>
+
+                <div class="sub-container">
+                  <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                  <h3>DevOps & Tools</h3>
+                  <span class="skill-details">Git, Docker, Jenkins, Kubernetes, Postman, Swagger</span>
+                </div>
+
+                <div class="sub-container">
+                  <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                  <h3>Cloud and Hosting</h3>
+                  <span class="skill-details">Azure Cloud, Heroku, Linux Server Management</span>
+                </div>
+
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Others:</h3>
+                <span class="skill-details">Agile Methodologies, REST API Design, Software Testing (Selenium, TestNG), Debugging</span>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="details-container">
+            <div class="sub-container section-title">
+              <h3>Data Science and AI</h3>
+            </div>
+             
+            <div class="skills-list">
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Languages/Tools</h3>
+                <span class="skill-details">Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow, Keras), R</span>
+              </div>
+
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Data Analysis</h3>
+                <span class="skill-details">Data Cleaning, Visualization, Exploratory Data Analysis (EDA), Statistical Modeling</span>
+              </div>
+
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Machine Learning</h3>
+                <span class="skill-details">Supervised & Unsupervised Learning, Feature Engineering, Model Evaluation</span>
+              </div>
+<!-- 
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Deep learning</h3>
+                <span class="skill-details">Neural Network Design, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transformers, Large Language Models (LLMs) (e.g., GPT, T5, BERT), Transfer Learning, Time-Series Analysis, Natural Language Processing (NLP), Computer Vision, Hyperparameter Tuning, Model Optimization</span>
+              </div> -->
+
+              <div class="sub-container">
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+                <h3>Big Data Tools</h3>
+                <span class="skill-details">Apache Spark, SQL for Data Manipulation</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+      
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
+        
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
@@ -300,12 +404,7 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              
             </div>
           </div>
           <div class="details-container color-container">
@@ -365,6 +464,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -392,7 +492,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
