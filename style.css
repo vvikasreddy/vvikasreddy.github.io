@@ -633,3 +633,47 @@ footer p {
     padding-right: 0.3rem;
   }
 }
+.experience-details-container {
+  position: relative;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-snap-type: x mandatory; /* Webkit-specific */
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  scrollbar-width: thin; /* For Firefox */
+  -ms-overflow-style: auto; /* Internet Explorer */
+}
+
+.experience-details-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.experience-details-container::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.details-container2 {
+  flex: 0 0 calc(33.33% - 0.75rem);
+  min-width: 320px;
+  max-width: 360px;
+  background: rgb(250, 250, 250);
+  border-radius: 1rem;
+  transition: all 0.4s ease-in-out;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 1024px) {
+  .details-container2 {
+    flex: 0 0 48%; /* Simplified */
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-container2 {
+    flex: 0 0 98%; /* Full width for smaller screens */
+  }
+}
