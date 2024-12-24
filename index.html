@@ -70,12 +70,12 @@
           />
           
       </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#skills'"
-      />
+      /> -->
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
@@ -97,15 +97,28 @@
                 class="icon"
               />
               <h3>Research Experience: 1+ years</h3>
-              <h3 >Industry Experience: 1+ years</h3>
-              <ul style="list-style: none; padding: 0; margin: 10px 0;">
-                <li style="margin-bottom: 10px;">
-                  <span style="font-weight: bold; margin-right: 10px;">›</span> Software Development
-                </li>
-                <li style="margin-bottom: 10px;">
-                  <span style="font-weight: bold; margin-right: 10px;">›</span> Machine Learning and Data Science
-                </li>
-              </ul>
+            <ul style="list-style: none; padding: 0; margin: 10px 0;">
+              <li style="margin-bottom: 10px;">
+                <span style="font-weight: bold; margin-right: 10px;">&#8226</span>
+                <strong>Research Assistant, UMBC</strong>
+                <div style="margin-left: 20px;">January 2024 - Present</div>
+              </li>
+            </ul>
+
+            <h3>Industry Experience: almost 1+ years</h3>
+            <ul style="list-style: none; padding: 0; margin: 10px 0;">
+              <li style="margin-bottom: 10px;">
+                <span style="font-weight: bold; margin-right: 10px;">&#8226</span>
+                <strong>SDE Intern, EPAM Systems</strong>
+                <div style="margin-left: 20px;">January 2023 - June 2023</div>
+              </li>
+              <li style="margin-bottom: 10px;">
+                <span style="font-weight: bold; margin-right: 10px;">&#8226</span>
+                <strong>Data Analyst, IIIT Hyderabad</strong>
+                <div style="margin-left: 20px;">March 2022 - June 2022</div>
+              </li>
+            </ul>
+
             </div>
             <div class="details-container">
               <img
@@ -117,23 +130,29 @@
                 <h3>Education</h3>
                 <ul style="list-style: none; padding: 0; margin: 10px 0;">
                   <li style="margin-bottom: 10px;">
-                    <span style="font-weight: bold; margin-right: 10px;">›</span> Bachelor's Degree in Computer Science
+                    <span style="font-weight: bold; margin-right: 10px;">&#8226;</span> <!-- Bold bullet point using Unicode character -->
+                    <strong>Bachelor's Degree</strong>
+                    <div style="margin-left: 20px;">B.Sc. in Computer Science and Technology</div>
                   </li>
                   <li style="margin-bottom: 10px;">
-                    <span style="font-weight: bold; margin-right: 10px;">›</span> Master's Degree in Data Science
+                    <span style="font-weight: bold; margin-right: 10px;">&#8226;</span> <!-- Bold bullet point using Unicode character -->
+                    <strong>Master's Degree</strong>
+                    <div style="margin-left: 20px;">M.Sc. in Data Science</div>
                   </li>
-                  </ul>
+                </ul>
+                
+                
             </div>
           </div>
           <div class="text-container" style="margin-top: 20px;">
             <p>
               <p>
                 As a <strong>passionate Data Scientist</strong> and <strong>Software Developer</strong>, I strive to make 
-                <strong>Artificial Intelligence</strong> accessible to everyone, blending innovation with practicality.  
+                <strong>Artificial Intelligence</strong> accessible to everyone.  
                 Backed by a strong academic foundation in <strong>Computer Science</strong> and <strong>Data Science</strong> from 
                 UMBC, I specialize in <strong>Deep Learning</strong>, <strong>Signal Processing</strong>, and <strong>Machine Learning</strong>.  
                 My work spans developing <em>cutting-edge emotion detection systems</em>, designing <em>innovative EEG applications</em>, 
-                and building <strong>scalable multilingual data pipelines</strong> to improve accessibility for millions.  
+                and building <strong>scalable multilingual data pipelines</strong>`.  
                 With a focus on bridging the gap between <strong>advanced AI technologies</strong> and <em>real-world impact</em>, 
                 I’m committed to transforming complex ideas into solutions that matter. Let’s collaborate to create 
                 something extraordinary together!
@@ -387,12 +406,12 @@
         
       </div>
       
-    <img
+    <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
-    />
+    /> -->
     </section>
 
    <!-- <div class="details-container2 color-container">
@@ -426,19 +445,20 @@
             <div class="article-container sub-container">
               <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" />
               <h2 class="experience-sub-title project-title">Constrained Beam-Search</h2> -->
-              <img src="./assets/project.png" alt="Skill icon" class="icon" />
-              <h3 class="experience-sub-title project-title">Constrained Beam Search</h2>
+              <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" /> -->
+              <h2 class="experience-sub-title project-title">Lexically Constrained Beam Search</h2>
               <p style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
-                <strong>📖 Overview:</strong> This project explores <em>lexically constrained beam search</em>, inspired by the algorithm
-                presented in Hokamp and Liu’s paper. The goal is to enhance machine translation by incorporating
-                contextually relevant constraints to guide the translation process. This method ensures that specific
-                words or phrases appear in the output while keeping the model parameters unchanged.
+                <strong>📖 Overview:</strong> This project implements the <em>lexically constrained beam search</em> algorithm, as 
+                presented in the research paper by Hokamp and Liu. The goal is to enhance Turkish-to-English machine translation 
+                by ensuring specific words or phrases are included in the translated output. This approach improves the control over 
+                translation outputs, making them more aligned with user-defined lexical requirements.            </p>
               </p>
+            
             </div>
             <div class="btn-container" style="text-align: center; margin-top: 20px;">
               <button
                 class="btn btn-color-2"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/vvikasreddy/lexically_constrained_beam_search_'"
               >
                 Github
               </button>
@@ -447,19 +467,21 @@
           </div>
           <div class="details-container2 color-container">
             <div class="article-container sub-container">
-              <img src="./assets/project.png" alt="Skill icon" class="icon" />
+              <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" /> -->
               <h2 class="experience-sub-title project-title">EEG P300-Detection (Lie-detection)</h2>
               <p style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
-                <strong>📖 Overview:</strong> This project explores <em>lexically constrained beam search</em>, inspired by the algorithm
-                presented in Hokamp and Liu’s paper. The goal is to enhance machine translation by incorporating
-                contextually relevant constraints to guide the translation process. This method ensures that specific
-                words or phrases appear in the output while keeping the model parameters unchanged.
-              </p>
+                📖 Overview: This project detects deception using brain waves, specifically the <em>P300 
+                  response</em>, through <em>EEG signals</em>. By analyzing these brain patterns, 
+                  the system identifies lies and concealed information. It processes EEG data, balances 
+                  datasets, and applies machine learning models for accurate detection. This non-invasive 
+                  method offers an alternative to traditional lie detection techniques.            </p>
+            
+              
             </div>
             <div class="btn-container" style="text-align: center; margin-top: 20px;">
               <button
                 class="btn btn-color-2"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/VinjamuriLab/P300-LieDetection'"
               >
                 Github
               </button>
@@ -469,21 +491,21 @@
             <div class="article-container sub-container">
               <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" />
               <h2 class="experience-sub-title project-title">Constrained Beam-Search</h2> -->
-              <img src="./assets/project.png" alt="Skill icon" class="icon" />
-              <h3 class="experience-sub-title project-title">Constrained Beam Search</h2>
+              <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" /> -->
+              <h3 class="experience-sub-title project-title">EEG Emotion-recognition</h2>
               <p style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
-                <strong>📖 Overview:</strong> This project explores <em>lexically constrained beam search</em>, inspired by the algorithm
-                presented in Hokamp and Liu’s paper. The goal is to enhance machine translation by incorporating
-                contextually relevant constraints to guide the translation process. This method ensures that specific
-                words or phrases appear in the output while keeping the model parameters unchanged.
-              </p>
-            </div>
+                <strong>📖 Overview:</strong> We developed an end-to-end deep learning network that 
+                combines facial expressions and neurophysiological (<em>EEG</em>) signals for emotion 
+                recognition. Using transformers and deep neural networks, the model captures complex 
+                patterns, enhancing classification accuracy. Validated on the DEAP dataset, it achieved 
+                97.64%, 97.78% accuracy for valence and arousal respectively. This work was accepted at 
+                the BSN conference, IEEE.            </div>
             <div class="btn-container" style="text-align: center; margin-top: 20px;">
               <button
                 class="btn btn-color-2"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://ieeexplore.ieee.org/document/10780554'"
               >
-                Github
+                IEEE
               </button>
               <button class="arrow next">→</button>
             </div>
@@ -492,19 +514,19 @@
             <div class="article-container sub-container">
               <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" />
               <h2 class="experience-sub-title project-title">Constrained Beam-Search</h2> -->
-              <img src="./assets/project.png" alt="Skill icon" class="icon" />
-              <h3 class="experience-sub-title project-title">Constrained Beam Search</h2>
+              <!-- <img src="./assets/project.png" alt="Skill icon" class="icon" /> -->
+              <h3 class="experience-sub-title project-title">US Government Contract Analysis</h2>
               <p style="font-size: 16px; line-height: 1.8; text-align: justify; margin-bottom: 15px;">
-                <strong>📖 Overview:</strong> This project explores <em>lexically constrained beam search</em>, inspired by the algorithm
-                presented in Hokamp and Liu’s paper. The goal is to enhance machine translation by incorporating
-                contextually relevant constraints to guide the translation process. This method ensures that specific
-                words or phrases appear in the output while keeping the model parameters unchanged.
-              </p>
+                <strong>📖 Overview:</strong> This project analyzes U.S. government contract opportunities
+                 using data from official government websites. It employs preprocessing and visualization 
+                 techniques to identify trends in government contracting. By examining contract amounts, 
+                 locations, and industries, the project helps stakeholders make informed decisions about 
+                 key opportunities.              </p>
             </div>
             <div class="btn-container" style="text-align: center; margin-top: 20px;">
               <button
                 class="btn btn-color-2"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/vvikasreddy/US_Government_Contract_Opportunties_analysis'"
               >
                 Github
               </button>
@@ -512,12 +534,12 @@
             </div>
           </div>
           </div>
-      <img
+      <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
-      />
+      /> -->
     </section>
 
     <section id="contact">
